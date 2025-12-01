@@ -5,7 +5,7 @@ import 'package:restaurant_customer_app/features/delivery/presentation/delivery_
 import 'package:restaurant_customer_app/features/orders/models/order_models.dart';
 import 'package:restaurant_customer_app/features/orders/presentation/order_success_screen.dart';
 
-class CheckoutScreen extends StatefulWidget 
+class CheckoutScreen extends StatefulWidget {
   final ValueNotifier<List<CartLineItem>> items;
 
   final void Function(String id)? onInc;
